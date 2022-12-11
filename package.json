@@ -1,0 +1,23 @@
+{
+  "name": "basic-dsa",
+  "version": "0.0.0",
+  "description": "library of commonplace data structures and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHANTOMS0308/BASIC-DSA.git"
+  },
+  "author": "phantom0308",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PHANTOMS0308/BASIC-DSA/issues"
+  },
+  "homepage": "https://github.com/PHANTOMS0308/BASIC-DSA#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
