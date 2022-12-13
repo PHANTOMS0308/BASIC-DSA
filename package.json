@@ -4,7 +4,7 @@
   "description": "library of commonplace data structures and algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter nyan"
   },
   "repository": {
     "type": "git",

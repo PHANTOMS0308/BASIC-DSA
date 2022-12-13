@@ -488,7 +488,9 @@ class SLL {
     return dummy.next;
   }
 
+  get [Symbol.toStringTag]() {
+    return 'LinkedList';
+  }
 }
-
 
 module.exports = SLL;

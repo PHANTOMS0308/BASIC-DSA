@@ -13,12 +13,19 @@ describe('LinkedList', function() {
     ]
   };
 
-  describe('iterable', function() {
+  describe('High Level Utilities', function() {
     const list = SLL.fromArray(dataStream.number);
     
-    it('the linked list should be iterable', function() {
+    it('LinkedList should be iterable', function() {
       [...list].should.be.deep.equal(dataStream.number);
-    });   
+    });
+
+    it('LinkedList has custom name type as [object LinkedList]', () => {
+      list.should.be.a('LinkedList').but.not.an('object');
+      console.log('The name tag is ', list.toString());
+    });
+
+
   });
 
 });
